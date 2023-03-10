@@ -14,12 +14,12 @@ Feature:ilk sayfa
     Then kullanici sayfayi kapatir
     Examples:
       | kullanici adi | e posta              | sifre |
-      | ademmmmm12     | ademmmmm12@gmail.com  | 12345 |
-      | mademmmmm12    | mademmmmm12@gmail.com | 12345 |
-      | sademmmmm12    | sademmmmm12@gmail.com | 12345 |
-      | hademmmmm12    | hademmmmm12@gmail.com | 12345 |
-      | yademmmmm12    | yademmmmm12@gmail.com | 12345 |
-      | tademmmmm12    | tademmmmm12@gmail.com | 12345 |
-      | eademmmmm12    | eademmmmm12@gmail.com | 12345 |
-      | pademmmmm12    | pademmmmm12@gmail.com | 12345 |
-      | dademmmmm12    | dademmmmm12@gmail.com | 12345 |
+      | AAademmmmm12     | AAademmmmm12@gmail.com  | 12345 |
+      | AAmademmmmm12    | AAmademmmmm12@gmail.com | 12345 |
+      | AAsademmmmm12    | AAsademmmmm12@gmail.com | 12345 |
+      | AAhademmmmm12    | AAhademmmmm12@gmail.com | 12345 |
+      | AAyademmmmm12    | AAyademmmmm12@gmail.com | 12345 |
+      | AAtademmmmm12    | AAtademmmmm12@gmail.com | 12345 |
+      | AAeademmmmm12    | AAeademmmmm12@gmail.com | 12345 |
+      | AApademmmmm12    | AApademmmmm12@gmail.com | 12345 |
+      | AAdademmmmm12    | AAdademmmmm12@gmail.com | 12345 |

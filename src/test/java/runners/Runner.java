@@ -12,7 +12,5 @@ import org.junit.runner.RunWith;
         dryRun = false // Seneryonun adımlarını kontrol eder ve çalıştığını görürüz
 )
 
-
-
 public class Runner {
 }

@@ -52,7 +52,7 @@ public class Driver {
                 driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
             }
         }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
         driver.manage().window().maximize();
         return driver;
     }
@@ -314,5 +314,14 @@ public class Driver {
     public static void waitAndClickLocationText(WebElement element, String value) {
         Driver.getDriver().findElement(By.xpath("//*[text()='" + value + "']")).click();
     }
+    public static void scrollTopJS() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0,-document.body.scrollHeight);");
+    }
+    public static void scrollIntoViewJS(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
 }
 

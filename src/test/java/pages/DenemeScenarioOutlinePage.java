@@ -22,12 +22,20 @@ public class DenemeScenarioOutlinePage {
     @FindBy(xpath = "//*[@id='billing_first_name']") public WebElement billingFirstName;
     @FindBy(xpath = "//*[@id='billing_last_name']") public WebElement billingLastName;
     @FindBy(xpath = "//*[@id='billing_company']") public WebElement billingCompany;
-    @FindBy(xpath = "//*[@id='select2-billing_country-container']") public WebElement billingCountry;
+    @FindBy(xpath = "//span[text()='Select a country / region…']") public WebElement bilingCountry1;
+    @FindBy(xpath = "//input[@class='select2-search__field']") public WebElement bilingCountry2;
+    @FindBy(xpath = "//*[@id='select2-billing_country-container']") public WebElement bilingCountry3;
+    @FindBy(xpath = "//*[@class='select2-search__field']") public WebElement bilingCountry4;
     @FindBy(xpath = "//*[@id='billing_address_1']") public WebElement billingStret;
     @FindBy(xpath = "//*[@id='billing_address_2']") public WebElement billingApartman;
     @FindBy(xpath = "//*[@id='billing_postcode']") public WebElement billingPostcode;
     @FindBy(xpath = "//*[@id='billing_city']") public WebElement billingCity;
-    @FindBy(xpath = "//*[@id='select2-billing_state-container']") public WebElement billingProvince;
+    @FindBy(xpath = "//span[@class='select2-selection__placeholder']") public WebElement bilingProvince1;
+    @FindBy(xpath = "//input[@class='select2-search__field']") public WebElement bilingProvince2;
+
+    @FindBy(xpath = "//*[@id='select2-billing_state-container']") public  WebElement bilingProvince3;
+
+    @FindBy(xpath = "//*[@class='select2-search__field']") public WebElement bilingProvince4;
     @FindBy(xpath = "//*[@id='billing_phone']") public WebElement billingPhone;
     @FindBy(xpath = "//*[@name='save_address']") public WebElement billingSaveButon;
 

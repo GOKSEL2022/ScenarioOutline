@@ -4,9 +4,9 @@ Feature:biling Adres
 
     Given kullanici "https://hubcomfy.com/" adrese gider
     Then kullanici register butona tiklar
-    And kullanici kullanici adini "hatemoglu" girer
-    And kullanici e posta olarak "hatemoglu52@gmail.com" girer
-    And kullanici sifre olarak "123456" girer
+    And kullanici kullanici adini "kullanici adi" girer
+    And kullanici e posta olarak " e posta" girer
+    And kullanici sifre olarak "sifre" girer
     And kullanici cheksbox isaretler
     And kullanici sig up butona tiklar
     And kullanici sign out butona tiklar
@@ -29,7 +29,7 @@ Feature:biling Adres
 
 
     Examples:
-      | firstname | lastname | companyname | stret adress | apartman | postcode | TownCity | phone
+      | firstname | lastname | companyname | stret adress | apartman | postcode | TownCity | phone |
       | goksel    | celik    | sabanci     | fatsa        | beyzade  | 555      | samsun   | 0545  |
       | ahmet     | celik    | sa          | camas        | celik    | 52430    | ordu     | 542   |
       | mehmet    | celik    | sa          | unye         | koc      | 52430    | tokat    | 530   |
